@@ -1,0 +1,21 @@
+{
+    "name": "miq/matomo-api",
+    "description": "Simple PHP Library for accessing matomo on an administrative way (e.g. adding/updateing/removing sites)",
+    "type": "library",
+    "require": {
+        "php": "^7.3",
+        "curl/curl": "^2.3"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Konstantin Tuemmler",
+            "email": "konstantin.tuemmler@miq.com.de"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "MiQ\\MatomoApi": "src/"
+        }
+    }
+}
