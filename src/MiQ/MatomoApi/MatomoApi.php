@@ -32,6 +32,7 @@ class MatomoApi {
     public function addSite(string $siteName) : int
     {
         //$ch = curl_init();
+
         return 0;
     }
 
